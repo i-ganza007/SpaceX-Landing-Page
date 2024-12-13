@@ -3,6 +3,7 @@
         <h3 id="launch-text">{{ launch_text }}</h3>
         <p id="starship-text">{{starship}}</p>
         <button id="section-a-rewatch">{{ button }}</button>
+        <button type=""></button>
     </div>
 </template>
 
@@ -18,7 +19,7 @@ const props = defineProps({
     starship:{
         type:String,
         required:true
-    },
+ },
     button:{
         type:String,
         default:'REWATCH'
