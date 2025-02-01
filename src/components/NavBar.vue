@@ -34,9 +34,9 @@
 
 <script setup>
 import { ref } from 'vue'
-import sectionAText from '@/components/Section-a-Text.vue';
-import scrolldown from '@/components/scrolldown.vue';
-import BurgerMenu from '@/components/BurgerMenu.vue'  // Make sure this path is correct
+import sectionAText from './components/Section-a-Text.vue';
+import scrolldown from './components/scrolldown.vue';
+import BurgerMenu from './components/BurgerMenu.vue'  // Make sure this path is correct
 
 const launch_text = ref('RECENT LAUNCH');
 const starship = ref('STARSHIP\'S SIXTH FLIGHT TEST');
