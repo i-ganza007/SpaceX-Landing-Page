@@ -6,8 +6,8 @@
 </template>
 <script setup>
 import { ref } from 'vue';
-import scrolldown from './components/scrolldown.vue';
-import sectionAText from './components/Section-a-Text.vue';
+import scrolldown from './scrolldown.vue';
+import sectionAText from './Section-a-Text.vue';
 const launch_text = ref('RECENT LAUNCH');
 const starship = ref('NROL-126 MISSION');
 </script>
